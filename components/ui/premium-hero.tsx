@@ -18,20 +18,14 @@ export function PremiumHero() {
   }
 
   return (
-    <div className="relative overflow-hidden bg-gradient-to-br from-[#28783B]/10 via-background to-background py-24 lg:py-32">
+    <div className="relative overflow-hidden bg-gradient-to-br from-[#28783B]/10 via-background to-background py-18 lg:py-18">
       {/* Background elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-[10%] -right-[10%] w-[40%] h-[40%] rounded-full bg-[#28783B]/5 blur-3xl" />
         <div className="absolute top-[60%] -left-[5%] w-[30%] h-[40%] rounded-full bg-[#28783B]/5 blur-3xl" />
-        <svg className="absolute top-0 left-0 w-full h-full opacity-5" viewBox="0 0 100 100" preserveAspectRatio="none">
-          <pattern id="grid" width="8" height="8" patternUnits="userSpaceOnUse">
-            <path d="M 8 0 L 0 0 0 8" fill="none" stroke="currentColor" strokeWidth="0.5" />
-          </pattern>
-          <rect width="100%" height="100%" fill="url(#grid)" />
-        </svg>
       </div>
       
-      <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mt-8 relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="flex flex-col max-w-xl">
             <Badge variant="outline" className="mb-6 w-fit bg-[#28783B]/10 text-[#28783B] border-[#28783B]/20">
