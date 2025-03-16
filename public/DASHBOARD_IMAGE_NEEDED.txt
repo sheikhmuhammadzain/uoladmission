@@ -1,0 +1,10 @@
+Please create an image file named 'admission-dashboard.webp' in this directory.
+
+This image will be displayed in the MacBook scroll component on the homepage.
+
+For best results:
+1. Use a high-resolution screenshot of your admission dashboard UI
+2. Use a 16:10 aspect ratio (typical MacBook screen)
+3. Make sure the image is clear and represents your application well
+
+You can run 'npm run check-components' to verify if the image is properly set up. 
