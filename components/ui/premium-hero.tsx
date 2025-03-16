@@ -5,7 +5,6 @@ import Link from "next/link";
 import { ArrowRight, GraduationCap, BookOpen, Users, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { motion } from "motion";
 
 export function PremiumHero() {
   const [mounted, setMounted] = useState(false);
@@ -95,7 +94,7 @@ export function PremiumHero() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-[#28783B]/10">
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10" />
               <img 
-                src="/campus.jpg" 
+                src="/uolpic.jpg" 
                 alt="University of Lahore Campus" 
                 className="w-full h-auto object-cover aspect-[4/3]"
               />
